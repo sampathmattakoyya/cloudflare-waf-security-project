@@ -1,0 +1,29 @@
+1. while (incoming_request)
+2.     request = incoming_request()
+3.     if (request_violates_rules(request))
+4.         block_request()
+5.     else
+6.         forward_request()
+7.     end if
+8. end while
+
+9. function request_violates_rules(request)
+10.     for each rule in ruleset
+11.         if (rule.matches(request))
+12.             return true
+13.         end if
+14.     end for
+15.     return false
+16. end function
+
+17. function block_request()
+18.     send_response("Access denied", 403)
+19.     end
+20. end function
+
+21. function forward_request()
+22.     send_request(request)
+23.     receive_response()
+24.     send_response(response)
+25.     end
+26. end function
