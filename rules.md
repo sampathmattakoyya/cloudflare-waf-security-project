@@ -1,0 +1,3 @@
+- Block requests with ' OR 1=1
+- Block <script> tags (XSS)
+- Limit requests per IP
