@@ -1,0 +1,31 @@
+# Web Application Firewall (WAF) using Cloudflare
+
+## 🔐 Project Overview
+Implemented a Web Application Firewall using Cloudflare to protect web applications from attacks like SQL Injection, XSS, and DDoS.
+
+## 🚀 Key Features
+- Traffic filtering and monitoring
+- Rule-based attack detection
+- Logging and reporting
+- IP blocking and rate limiting
+
+## 🛠️ Tools Used
+- Cloudflare WAF
+- Burp Suite
+- Wireshark (optional)
+- Linux
+
+## ⚡ Attacks Detected
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Suspicious HTTP traffic
+
+## 📊 Results
+- Successfully blocked simulated malicious requests
+- Identified abnormal traffic patterns using logs
+
+## 📁 Project Structure
+(Explain folders)
+
+## 🔗 Author
+Sampath 
